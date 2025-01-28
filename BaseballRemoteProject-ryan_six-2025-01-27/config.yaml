@@ -1,0 +1,46 @@
+Task: BaseballRemoteProject
+TrainingFraction: [0.95]
+alphavalue: 0.7
+batch_size: 8
+bodyparts: [right_shoulder, right_elbow, right_wrist, left_shoulder, left_elbow, left_wrist,
+  right_hip, left_hip, left_knee, right_knee, left_ankle, right_ankle]
+colormap: rainbow
+corner2move2: [50, 50]
+cropping: false
+date: Jan27
+default_augmenter: default
+default_net_type: resnet_50
+dotsize: 12
+identity: null
+iteration: 0
+move2corner: true
+multianimalproject: false
+numframes2pick: 20
+pcutoff: 0.6
+project_path: 
+  C:\Users\Joey\PycharmProjects\Remote3D-Original\BaseballRemoteProject-ryan_six-2025-01-27
+scorer: ryan_six
+skeleton:
+- [right_shoulder, right_elbow]
+- [right_elbow, right_wrist]
+- [left_shoulder, left_elbow]
+- [left_elbow, left_wrist]
+- [left_shoulder, right_shoulder]
+- [left_shoulder, left_hip]
+- [right_shoulder, right_hip]
+- [left_hip, right_hip]
+- [left_hip, left_knee]
+- [left_knee, left_ankle]
+- [right_hip, right_knee]
+- [right_knee, right_ankle]
+skeleton_color: black
+snapshotindex: -1
+start: 0
+stop: 1
+video_sets:
+  C:\Users\Joey\PycharmProjects\Remote3D-Original\BaseballRemoteProject-ryan_six-2025-01-27\videos\ryan_six.mov: {
+    crop: '0, 1920, 0, 1080'}
+x1: 0
+x2: 640
+y1: 277
+y2: 624
